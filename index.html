@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/89/52/5457d92d4823301.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+    margin-top: 30px;
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1,h3,h4
+{
+	color: white !important;
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Valet Parking </title>
+</head>
+<body onload="add();">
+
+<center>
+<h1 style="font-family: tahoma;">Valet Parking</h1>
+<h3 style="font-family: tahoma;">Move the green car with arrow keys</h3>
+<h4>
+	<b class="text-danger" style="color: rgb(79, 219, 121);">NOTE : </b> If car is not visible press any arrow key
+</h4>
+
+	<!--- Create Canvas--->
+<canvas id="myCanvas" width="800" height="400"></canvas>
+
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
